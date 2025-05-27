@@ -1,0 +1,81 @@
+/* Estilo general */
+body {
+    background: linear-gradient(135deg, #83cfff, #aadffd);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px;
+    color: #2c3e50;
+}
+
+/* Título principal */
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 1px 1px 4px #1a6db3;
+}
+
+/* Inputs y textarea con neumorfismo */
+input,
+#descripcion {
+    background-color: #e0e0e0;
+    border: none;
+    border-radius: 15px;
+    padding: 12px 18px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 500px;
+    margin: 10px auto 20px auto;
+    display: block;
+    box-shadow: 6px 6px 12px #b8b8b8,
+                -6px -6px 12px #ffffff;
+    transition: 0.3s ease;
+}
+
+input:focus,
+#descripcion:focus {
+    outline: none;
+    box-shadow: inset 4px 4px 8px #b8b8b8,
+                inset -4px -4px 8px #ffffff;
+}
+
+/* Botón neumórfico */
+button {
+    background-color: #e0e0e0;
+    color: #2c3e50;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 12px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 6px 6px 12px #b8b8b8,
+                -6px -6px 12px #ffffff;
+    margin: 0 auto;
+    display: block;
+    transition: 0.3s ease;
+}
+
+button:hover {
+    box-shadow: inset 4px 4px 8px #b8b8b8,
+                inset -4px -4px 8px #ffffff;
+}
+
+/* Encabezados de tabla */
+th {
+    background-color: #f5f5f5;
+    padding: 10px 15px;
+    box-shadow: inset 3px 3px 6px #b8b8b8,
+                inset -3px -3px 6px #ffffff;
+}
+
+
+th{
+    background-color: rgb(227, 226, 226);
+}
+
+
+
+
+
+
